@@ -1,0 +1,35 @@
+.container{
+    background-color: whitesmoke;
+    padding:1%;
+    /* display:flex; */
+    align-items: center;
+
+}
+.titleblock {
+    font-family: 'Roboto', sans-serif;
+    font-size: 200px;
+    color:grey;
+    width:100%;
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.toprow{
+    background-color: azure;
+    display:flex;
+    justify-content: space-around;
+}
+.middlerow{
+    background-color: lightpink;
+    display:flex;
+    justify-content: space-around;
+}
+.bottomrow{
+    background-color: seashell;
+    display:flex;
+    justify-content: space-around;
+}
+img{
+    margin: 1%;
+}

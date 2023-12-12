@@ -1,0 +1,23 @@
+.container{
+    width:1000px;
+    height:600px;
+    background-color:White;
+    display: flex;
+}
+.flag-item1{
+    /* width: 333px; */
+    height: 600px;
+    flex:1;
+    background-color: green;
+    /* display: flex; */
+}
+.flag-item2{
+    width: 333px;
+    height: 600px;
+    background-color: white;
+}
+.flag-item3{
+    width: 333px;
+    height: 600px;
+    background-color: green;
+}

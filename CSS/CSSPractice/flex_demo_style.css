@@ -1,0 +1,18 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-start will put block to the start(top) */
+    /* align-items: flex-end; */
+    /* align-items: flex-end will put block to the bottom */
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+

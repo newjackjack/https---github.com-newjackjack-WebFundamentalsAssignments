@@ -1,0 +1,36 @@
+.container{
+    width:1500px;
+    height:1000px;
+    background-color: red;
+    /* display: flex; */
+}
+.flag-item1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    position:relative center;
+    /* justify-content:center; */
+    /* justify-items: center; */
+}
+.flag-item2{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    /* display: flex; */
+    position: center;
+    /* align-items: center;
+    justify-content:center;
+    justify-items: center; */
+}
+.flag-item3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: center;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content:center; */
+    /* justify-items: center; */
+}

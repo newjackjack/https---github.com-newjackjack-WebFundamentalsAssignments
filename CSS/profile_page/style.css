@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.profile_bar{
+    background-color: black;
+    color: white;
+    padding:20px;
+    display:flex;
+    gap: 200px;
+    justify-content:center;
+}
+.profile_list{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    align-items: center;
+    gap: 50px;
+}
+.profile_head{
+    font-weight: 300;
+    font-size: 2em;
+}
+.my_profile{
+    font-weight: 600;
+}
+button{
+    background-color: aqua;
+    padding:1px 20px;
+}
+.bottom_row{
+    background-color: grey;
+    /* margin: auto; */
+    display:flex;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+}
+/*Profile block: 1. top_bar and icon 2. bottom list of contents*/
+
+
+
+
