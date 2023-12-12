@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <h1>Dojonary</h1>
+        <input type="search" name="search" id="search" placeholder="Search"> 
+        <button type="button" class="login-button"id="clickMe" onclick='hasClicked(this)'>Login</button><!--<button onclick= "hasClicked(this)>On</button>-->
+    </div>
+    <!-- first row -->
+    <div class="first-row">
+        <div class="def-block">
+            <div class="first-word">
+                <h2>ninja</h2>
+                <h3>noun</h3>
+                <h4>Plural: <span class="ninjas">ninjas</span></h4>
+                <button type="button" class="likes-button" id="clickMe" onclick="alert('Ninja was liked')">13 likes</button>
+            </div>
+            <div class="first-def">
+                A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a>
+            </div>
+        </div>
+        <div class="your-def-block">
+            <p>Dojonary is defined by YOU</p>
+            <button type="button" class="add-def" id="clickMe" onclick="this.remove()">Add Definition</button>
+        </div>
+    </div>
+    <!-- second row -->
+    <div class="def-block-2">
+        <div class="first-word">
+            <h2>ninja</h2>
+            <h3>noun</h3>
+            <h4>Plural: <span class="ninjas">ninjas</span></h4>
+            <button type="button" class="likes-button">37 likes</button>
+        </div>
+        <div class="first-def">
+            A <a href="https://en.wikipedia.org/wiki/Programmer">Programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

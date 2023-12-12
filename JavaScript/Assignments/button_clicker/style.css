@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+}
+/* top-bar styles */
+.top-bar{
+    width:800px;
+    margin: 0vh auto;
+    
+    background-color:rgb(216, 211, 211);
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    padding: 2vh;
+}
+#search{margin:2vh 4vh;
+    border: 1px solid black;
+    width:50vh;
+}
+.login-button{
+    width:15vh;
+    margin:2vh 4vh;
+    color:white;
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+/* first-row */
+.first-row{
+    width:800px;
+    margin: 2vh auto;
+    display:flex;
+    justify-content: space-between;
+}
+/* first definition block contains two block */
+.def-block{
+    width:500px;
+    /* padding:1vh; */
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* first word */
+.first-word{
+    width:250px;
+    padding:2vh;
+}
+/* ninja */
+.first-word > h2{
+    font-weight: 400;
+    font-size: 2em;
+    padding:0vh 0vh 0vh -1vh;
+}
+/* noun */
+.first-word > h3{
+    font-style: italic;
+    font-weight: 400;
+    padding: 1vh;
+}
+.first-word > h4{
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 1vh 1vh 2vh 0vh;
+}
+.ninjas{
+    font-style: italic;
+}
+.likes-button{
+    position:relative;
+    left:-1.5vh;
+    padding:1vh 4vh;
+    background-color: rgb(245, 189, 8);
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+}
+.first-def{
+    width: 250px;
+}
+.your-def-block{
+    width: 280px;
+    border:1px solid black;
+}
+.your-def-block > p {
+    width:200px;
+    margin: 4vh;
+}
+.add-def{
+    width:15vh;
+    padding:1vh 2vh;
+    margin: 1vh auto auto 7vh; 
+    background-color: rgb(26, 229, 26);
+    box-shadow: 2px 2px 2px 2px black;
+    cursor: pointer;
+}
+/* ******** second-row ************* */
+.def-block-2{
+    width:500px;
+    margin: 2vh auto;
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* align-content: flex-start; */
+    position: relative;
+    left: -16vh;
+}

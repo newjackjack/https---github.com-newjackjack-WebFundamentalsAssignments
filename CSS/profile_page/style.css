@@ -25,18 +25,227 @@
     font-weight: 600;
 }
 button{
-    background-color: aqua;
+    background-color: rgb(23, 162, 184);
     padding:1px 20px;
 }
 .bottom_row{
-    background-color: grey;
+    background-color: white;
     /* margin: auto; */
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* gap: 50px; */
 }
 /*Profile block: 1. top_bar and icon 2. bottom list of contents*/
+/* .left_column{
 
+} */
+.upper_left{
+    border: 0.2em solid #c4c2c250;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    background-color: white;
+    margin:10px;
+}
+.profile_page_top{
+    background-color: rgb(23, 162, 184);
+    height: 50px;
+}
+.icon{
+    width: 20%;
+    position:relative;
+    top:-25px;
+    left: 8px;
+    
+}
+.profile_page_bottom{
+    background-color: white;
+    border-color: black;
+    /* margin: 0 auto; */
+}
+.profile_page_list{
+    list-style-type: none;
+    background-color: white;
+    padding:10px;
+    /* position:relative;
+    top: -5px;
+    left: 8px; */
+}
+.profile_name{
+    position:relative;
+    top:-35px;
+}
+.location{
+    position:relative;
+    margin:2px;
+    top:-20px;
+    align-items:top;
+}
+.location > img{
+    width: 10px;
+    margin:1px;
+    /* display:flex; */
+}
 
+.title{
+    position:relative;
+    top:-10px;
+}
+.edit_profile{
+    text-decoration: underline;
+    position:relative;
+    margin:1px;
+    top:5px;
+    align-items:top;
+}
+.edit_profile > img{
+    width: 15px;
+    align-items: center;
+}
 
+.bottom_left{
+    border: 0.2em solid #c4c2c250;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 10px
+    
+}
+.edu_bar{
+    background-color: black;
+    color:white;
+    padding: 10px 15px;
+}
+.edu_list{
+    list-style-type: none;
+    margin:10px
+}
+.edu_ins{
+    font-size: 1.1em;
+}
+.time_period{
+    font-size: 0.8em;
+    color: gray;
+}
+/* Right Column */
+.right_column{
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    margin:10px;
+}
+.upper_right{
+    border: 0.2em solid #c4c2c250;
+}
+.upright_topbar{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+}
+.num_pop{
+    color:black;
+    font-size: 1.2em;
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    border-radius: 100%;
+    margin: 5px 10px;
+    padding:5px;
+}
+.connection_req{
+    color: white;
+    display:flex;
+    align-items: center;
+    margin: 2.5px 5px;
+}
+.connection_req_bottom{
+    /* height:100px; */
+    padding:5px 10px;
+    background-color: white;
+    /* justify-content: ; */
+}
 
+.first_request{
+    /* height:100px; */
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.second_request{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first_left{
+    width:100px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.first_right{
+    width:100px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user_icon{
+    height:1.5em;
+    gap:20px;
+    
+}
+.request_name{
+    height:1em;
+    margin:10px;
+    align-items: center;
+}
+.accept_icon, .close_icon{
+    height:1.5em;
+    justify-content: end;
+}
+/*Bottom right Your Connection starts here*/
+.bottom_right{
+    border: 0.2em solid #c4c2c250;
+    background-color: white;
+    width:220px;
+    margin: 10px 0px;
+}
+.connection_bar{
+    display:flex;
+    background-color: black;
+    justify-content: space-between;
+    border-top: 0.2em solid #000000;
+    border-left: 0.2em solid #000000;
+    border-right: 0.2em solid #000000;
+}
+/* .your_connection{
+    
+} */
+.connection_list{
+    list-style-type: none;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding: 10px;
+}
+.list{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list > p{
+    padding: 5px;
+}
+.user_icon_2{
+    display:flex;
+    height:1.5em;
+    align-items: center;
+}
+.your_connection_bar{
+    border-top: 0.2em solid #c4c2c250;
+}
+.viewmore_btn{
+    font-size: 1em;
+    text-decoration: underline;
+    background-color: white;
+    color:blue;
+    border:none;
+}
